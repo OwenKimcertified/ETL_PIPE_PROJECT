@@ -1,6 +1,7 @@
 # ETL_PIPE_PROJECT
 from api, processing big data
 
-로깅 진행, nosql 
+ETL PROCESS logging , nosql 에 저장 (original data) 
 
-데이터 품질 check module
+vif calculator module 추가.
+ 
