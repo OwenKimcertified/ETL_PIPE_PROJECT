@@ -5,3 +5,4 @@ ETL PROCESS logging , nosql 에 저장 (original data)
 
 vif calculator module 추가.
  
+dags unit test 추가 (pytest)
