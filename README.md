@@ -16,3 +16,12 @@ dags unit test 추가 (pytest)
 ![567a](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/cab8913c-ba2b-46d8-9d60-c9b05a3d2b0c)
 # python kafka streaming 
 ![888a](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/868b2942-0dbd-443d-a19f-078304ba0ef8)
+
+### error list 
+airflow 에서 pandas series serialize 문제 
+- airflow 에서 task 간 xcom 시 json serialize 하는데, pandas series 는 json serialize 할 수 없음
+- airflow config 에서 enable_xcom_pickling = True 하게되면 serialize 할 때 json 이 아닌 pickle 방식으로 진행해 복잡한 객체도 serialize 가능
+
+mysql 권한 설정
+create user 로 유저를 생성 후 privilege all 로 권한을 설정해주어야 함.
+
