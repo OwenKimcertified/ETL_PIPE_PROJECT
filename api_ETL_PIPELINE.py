@@ -14,7 +14,7 @@ from airflow.operators.bash import BashOperator
 from airflow.models import DagRun
 from pipe_model_ckdata import *
 
-# Constants
+# Const
 API_KEY = 'RGAPI-86d76c98-46cb-417d-80a1-3f81d19ccd3c'
 
 brokers = ["localhost:9091", "localhost:9092", "localhost:9093"]
