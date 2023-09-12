@@ -22,4 +22,5 @@ airflow 에서 pandas series serialize 문제
 - airflow 에서 task 간 xcom 시 json serialize 하는데, pandas series 는 json serialize 할 수 없음
 - airflow config 에서 enable_xcom_pickling = True 하게되면 serialize 할 때 json 이 아닌 pickle 방식으로 진행해 복잡한 객체도 serialize 가능
 
-
+airflow 에서 mysql 과 연결이 안되는 경우 (sqlalchemy 관련)
+- airflow config 에서 sqlalchemy_conn = 관련 주소를 설정
