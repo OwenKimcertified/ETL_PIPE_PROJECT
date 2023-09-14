@@ -6,12 +6,14 @@ ETL PROCESS logging (kafka), nosql 에 저장 (original data)
 kafdrop 을 이용하여 broker 의 관리를 용이하게, log centre 로 활용
 
 data 의 vif 계수와 data 의 stability 를 측정하는 module 추가.
+
+조건에 따라 다음 task가 실행되도록 branchoperator 설정.
  
-dags unit test 추가 (pytest)
+dags unit test 추가. (pytest)
 # airflow dags 
-![123a](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/bc477949-7911-41ea-9bd0-b304903b2318)
+![스크린샷 2023-09-15 03-58-19](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/70992f7e-f841-4927-9e94-88320b30c764)
 # airflow dags tree
-![234a](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/9083289f-c766-470e-933a-b8987c48d594)
+![스크린샷 2023-09-15 03-58-35](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/956e08c7-b327-4c6c-bda1-663ab3d7b603)
 # kafdrop ( log centre )
 ![567a](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/a264b46f-192f-43ba-8131-25b83cd8726a)
 # python kafka streaming 
