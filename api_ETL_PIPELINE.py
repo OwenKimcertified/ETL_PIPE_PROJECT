@@ -116,7 +116,7 @@ def check_df_info(**context):
     missing_values_sum = check_df['Missing_Values'].sum()
     missing_percentage = (missing_values_sum / total_rows) * 100    
 
-    if df is not None and missing_percentage >= 20:    
+    if df is None or missing_percentage >= 20:    
         logging_err()
         return 'error'
     else:
