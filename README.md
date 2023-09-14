@@ -1,4 +1,4 @@
-# ETL_PIPE_PROJECT
+# ETL_PIPE_PROJECT PPT 제작 중
 from api, processing data
 
 ETL PROCESS logging (kafka), nosql 에 저장 (original data) 
