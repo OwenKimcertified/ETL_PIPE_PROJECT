@@ -9,13 +9,13 @@ data 의 vif 계수와 data 의 stability 를 측정하는 module 추가.
  
 dags unit test 추가 (pytest)
 # airflow dags 
-![123a](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/97d50237-6549-4f89-bffd-debb7ee5dc92)
+![123a](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/bc477949-7911-41ea-9bd0-b304903b2318)
 # airflow dags tree
-![234a](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/5ef92e45-e099-41b7-ba70-1b6fed1b5752)
+![234a](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/9083289f-c766-470e-933a-b8987c48d594)
 # kafdrop ( log centre )
-![567a](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/cab8913c-ba2b-46d8-9d60-c9b05a3d2b0c)
+![567a](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/a264b46f-192f-43ba-8131-25b83cd8726a)
 # python kafka streaming 
-![888a](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/868b2942-0dbd-443d-a19f-078304ba0ef8)
+![888a](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/0242e35d-da4e-4bf7-8b82-6e78bf60795b)
 
 ### error list (clear)
 airflow 에서 pandas series serialize 문제 
