@@ -29,7 +29,7 @@ arg = {'start_date': dt(2023, 1, 11)}
 mysql_conn_id = 'local_mysql'
 mysql_db = 'api_data'
 
-atlas_addr = "mongodb+srv://user:password@cluster0.q3959zk.mongodb.net/"
+atlas_addr = "mongodb+srv://user:password@clustername.secret.mongodb.net/"
 
 # ORM
 Base = declarative_base()
