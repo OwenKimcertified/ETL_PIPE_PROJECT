@@ -1,16 +1,24 @@
 # ETL_PIPE_PROJECT
 
-from api, processing data
+이 프로젝트는 API server 에서 데이터를 요청받고
 
-ETL PROCESS logging (kafka), nosql 에 저장 (original data) 
+요청한 데이터를 처리, 저장하는 ETL_PIPELINE 에 대한 기록입니다.
 
-kafdrop 을 이용하여 broker 의 관리를 용이하게, log centre 로 활용
+Airflow 사용으로 task 를 자동화, 조건에 따른 task 를 결정을 구현하고   
 
-data 의 vif 계수와 data 의 stability 를 측정하는 module 추가.
+처리된 데이터를 안전하게 RDB(MySQL), MongoDB(NoSQL) 로 이동시키는 PIPELINE 을 구축했습니다.
 
-조건에 따라 다음 task가 실행되도록 branchoperator 설정.
+본 프로젝트에는 사용하지 않은 수치형 데이터에 활용 가능한 vif 계수 측정,
+
+본 프로젝트에 사용한 data stability 를 측정하는 모듈을 추가하여 분석가의 편의에 신경 썼습니다.
+
+Kafka 와 Kafdrop 을 이용하여 로그 처리에 이용했고 
+
+kafka 의 경우 cli 로 로깅 기록을 확인할 수 있지만 다소 번거로운 단점을 상쇄하고자
+
+kafdrop 을 도입하여 log centre 처럼 운용하여 GUI 로 쉽게 로그를 확인할 수 있도록 했습니다.
  
-dags unit test 추가. (pytest)
+마지막으로 pytest 를 이용하여 안정적인 작업이 가능하도록 했습니다.
 
 ![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/6963d958-0fc2-4835-95a9-a643fb64a813)
 ![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/6816079b-cfe4-40c2-8322-6abea730fd8e)
@@ -38,6 +46,11 @@ orm 은 무엇이고 왜 써야했는가
 - 쉽게 말해, orm 은 파이썬 - SQL 간 통역사 역할을 하고 프로그래밍 언어와 db 간 상호작용을 도와줌.
 - orm 을 쓰면 객체 지향적이고, 프로그래밍 언어와 db 간 일관성을 유지하게 함.
 - 정리하면 객체 지향 이라는 관점과, 관계형 이라는 관점을 통합시키기 위해 사용했음.
+
 ### issue list 
 데이터를 저장할 때에는 한 줄씩 루프를 돌아가며 인젝하는 방식밖에 없을까? 
 - 데이터의 양이 많다면 분명 문제가 있을 것 같은데 해결 방법을 모르겠다.
+
+pytest 로 코드 테스팅은 했지만 트러블 슈팅을 못 하고 있다.
+
+CI 에 도움이 되고 있지만 트러블 슈팅으로 예외 상황을 처리할 수 있도록 하고 싶다.
