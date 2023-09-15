@@ -20,6 +20,8 @@ kafdrop 을 도입하여 log centre 처럼 운용하여 GUI 로 쉽게 로그를
  
 마지막으로 pytest 를 이용하여 안정적인 작업이 가능하도록 했습니다.
 
+# PPT 
+
 ![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/6963d958-0fc2-4835-95a9-a643fb64a813)
 ![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/6816079b-cfe4-40c2-8322-6abea730fd8e)
 ![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/c2a14085-75e1-49ab-ba1f-4a51e7796c38)
