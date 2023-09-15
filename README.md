@@ -10,6 +10,8 @@ data 의 vif 계수와 data 의 stability 를 측정하는 module 추가.
 조건에 따라 다음 task가 실행되도록 branchoperator 설정.
  
 dags unit test 추가. (pytest)
+
+![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/7506faed-4146-4c2d-83e6-2e8cc224eab2)
 # airflow dags 
 ![스크린샷 2023-09-15 03-58-19](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/70992f7e-f841-4927-9e94-88320b30c764)
 # airflow dags tree
