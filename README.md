@@ -25,7 +25,7 @@ kafdrop 을 도입하여 log centre 처럼 운용하여 GUI 로 쉽게 로그를
 ![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/6963d958-0fc2-4835-95a9-a643fb64a813)
 ![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/6816079b-cfe4-40c2-8322-6abea730fd8e)
 ![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/c2a14085-75e1-49ab-ba1f-4a51e7796c38)
-![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/cf63ddcd-aa62-4c73-9b9b-196f52f3c714)
+![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/7a31da36-d6ba-4d73-a5af-9fb32cbe4515)
 ![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/54dbca2e-a140-4bbe-8803-967979a1f26e)
 ![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/74ab439a-ebb7-446e-90d6-e319a2243df6)
 
