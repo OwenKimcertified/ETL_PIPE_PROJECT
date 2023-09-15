@@ -18,7 +18,7 @@ from airflow.models import DagRun
 from pipe_model_ckdata import *
 
 # Constants
-API_KEY = 'RGAPI-30944ab1-32eb-4d84-b1f6-d11a3a3c6b71'
+API_KEY = 'API_KEY'
 
 brokers = ["localhost:9091", "localhost:9092", "localhost:9093"]
 topicname = "ETL_PIPE_LOGGING"
@@ -29,7 +29,7 @@ arg = {'start_date': dt(2023, 1, 11)}
 mysql_conn_id = 'local_mysql'
 mysql_db = 'api_data'
 
-atlas_addr = "mongodb+srv://owen:root@cluster0.q3959zk.mongodb.net/"
+atlas_addr = "mongodb+srv://user:password@cluster0.q3959zk.mongodb.net/"
 
 # ORM
 Base = declarative_base()
