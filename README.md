@@ -18,8 +18,7 @@ dags unit test 추가. (pytest)
 ![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/cf63ddcd-aa62-4c73-9b9b-196f52f3c714)
 ![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/54dbca2e-a140-4bbe-8803-967979a1f26e)
 ![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/74ab439a-ebb7-446e-90d6-e319a2243df6)
-# airflow dags 
-![스크린샷 2023-09-15 03-58-19](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/70992f7e-f841-4927-9e94-88320b30c764)
+
 # airflow dags tree
 ![스크린샷 2023-09-16 00-50-09](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/ce7a929b-601f-4999-bf48-8dd80bcd5194)
 # kafdrop ( log centre )
