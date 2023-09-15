@@ -11,7 +11,13 @@ data 의 vif 계수와 data 의 stability 를 측정하는 module 추가.
  
 dags unit test 추가. (pytest)
 
-![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/7506faed-4146-4c2d-83e6-2e8cc224eab2)
+![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/6963d958-0fc2-4835-95a9-a643fb64a813)
+![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/6816079b-cfe4-40c2-8322-6abea730fd8e)
+![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/c2a14085-75e1-49ab-ba1f-4a51e7796c38)
+![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/cf63ddcd-aa62-4c73-9b9b-196f52f3c714)
+![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/adb098e3-8134-414f-b04d-4a25ed8d77e6)
+![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/54dbca2e-a140-4bbe-8803-967979a1f26e)
+![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/74ab439a-ebb7-446e-90d6-e319a2243df6)
 # airflow dags 
 ![스크린샷 2023-09-15 03-58-19](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/70992f7e-f841-4927-9e94-88320b30c764)
 # airflow dags tree
