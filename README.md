@@ -16,7 +16,7 @@ Kafka 와 Kafdrop 을 이용하여 로그 처리에 이용했고
 
 kafka 의 경우 cli 로 로깅 기록을 확인할 수 있지만 다소 번거로운 단점을 상쇄하고자
 
-kafdrop 을 도입하여 log centre 처럼 운용하여 GUI 로 쉽게 로그를 확인할 수 있도록 했습니다.
+kafdrop 을 추가해 log centre 처럼 운용하여 GUI 로 쉽게 로그를 확인할 수 있도록 했습니다.
  
 마지막으로 pytest 를 이용하여 안정적인 작업이 가능하도록 했습니다.
 
