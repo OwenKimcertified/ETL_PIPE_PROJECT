@@ -21,16 +21,15 @@ kafka 의 경우 cli 로 로깅 기록을 확인할 수 있지만 다소 번거�
 kafdrop 을 추가해 log centre 처럼 운용하여 GUI 로 쉽게 로그를 확인할 수 있도록 했습니다.
  
 마지막으로 pytest 를 이용하여 안정적인 작업이 가능하도록 했습니다.
-![ETL PIPELINE WITH AI (1)](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/ac13aa54-349b-4bb5-94d3-7a4ca65e2522)
 
 # PPT 
-![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/bf582e72-ea7e-4885-a045-854426b41d05)
-![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/6963d958-0fc2-4835-95a9-a643fb64a813)
-![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/6816079b-cfe4-40c2-8322-6abea730fd8e)
-![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/c2a14085-75e1-49ab-ba1f-4a51e7796c38)
-![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/7a31da36-d6ba-4d73-a5af-9fb32cbe4515)
-![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/54dbca2e-a140-4bbe-8803-967979a1f26e)
-![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/74ab439a-ebb7-446e-90d6-e319a2243df6)
+![슬라이드1](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/9862d9cf-7a74-4b3e-a6ea-f44328bfb1f8)
+![슬라이드2](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/d706a0f6-d70b-470d-a29f-475cd531eb18)
+![슬라이드3](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/43e3ca71-9b72-4acb-a827-fd6184ec9bc1)
+![슬라이드4](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/f8821a00-2e77-40c8-936e-058ae8c8a7e4)
+![슬라이드5](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/116d3b76-b510-4a38-ad74-6e1c4addbb0c)
+![슬라이드6](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/ecf5ee0c-4d24-4f04-92cc-b5f9cf38745c)
+![슬라이드7](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/d550a2fe-c815-4778-b75d-96bc0cb66e72)
 
 # airflow dags tree
 ![스크린샷 2023-09-16 00-50-09](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/ce7a929b-601f-4999-bf48-8dd80bcd5194)
