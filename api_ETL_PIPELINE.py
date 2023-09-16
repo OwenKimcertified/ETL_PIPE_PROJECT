@@ -118,9 +118,9 @@ def check_df_info(**context):
 
     if df is None or missing_percentage >= 20:    
         logging_err()
-        return 'error'
+        return 'stop'
     else:
-        return 'continue'
+        return 'continue_'
 
 def logging():
     current_datetime = datetime.datetime.now()
@@ -202,7 +202,7 @@ with DAG(dag_id = dag_id,
     )
 
     continue_ = DummyOperator(
-        task_id = 'continue',
+        task_id = 'continue_',
         dag = dag,
     )
     
