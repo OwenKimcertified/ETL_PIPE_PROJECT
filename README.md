@@ -51,7 +51,7 @@ airflow 에 module 추가 설치
 - apache-airflow-providers-<provider-name> 로 pip install
 - aws provider 를 설치 시 pip install apache-airflow-providers-amazon 
 
-! MySQL Error (HY000) : Can`t connect to local MySQL server throu socket 'var/run/mysqld/mysqld.sock'(2)
+! MySQL Error (HY000) : Can`t connect to local MySQL server through socket 'var/run/mysqld/mysqld.sock'(2)
 
 고전했던 error 이고 확인해본 것들은 3가지
 
