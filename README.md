@@ -41,8 +41,36 @@ airflow 에서 pandas series serialize 문제
 - airflow 에서 task 간 xcom 시 json serialize 하는데, pandas series 는 json serialize 할 수 없음
 - airflow config 에서 enable_xcom_pickling = True 하게되면 serialize 할 때 json 이 아닌 pickle 방식으로 진행해 복잡한 객체도 serialize 가능
 
-airflow 에서 mysql 과 연결이 안되는 경우 (sqlalchemy 관련)
+airflow 관련 error
+sqlalchemy 관련 rdb 연결 불가 case
 - airflow config 에서 sqlalchemy_conn = 관련 주소를 설정
+
+airflow 에 module 추가 설치
+- apache-airflow-providers-<provider-name> 로 pip install
+- aws provider 를 설치 시 pip install apache-airflow-providers-amazon 
+
+! MySQL Error (HY000) : Can`t connect to local MySQL server throu socket 'var/run/mysqld/mysqld.sock'(2)
+고전했던 error 이고 확인해본 것들은 3가지
+- 1. MySQL 데몬 실행확인
+systemctl stop mysqld
+chmod -R 755 /var/lib/mysql
+chown -R mysql:mysql /var/lib/mysql
+systemctl start mysqld
+순서대로 실행
+- 2. my.cnf config 파일 확인
+2 번의 case 였고 nano cli 로 내용을 수정
+clinet = /var/lib/mysql/mysql.sock
+socket = /var/lib/mysql/mysql.sock
+- 3. mysql.sock 경로, 시스템이 찾지 못 함.
+심볼릭 링크 생성
+ln -s /tmp/mysql.sock /var/lib/mysql/mysql.sock
+
+- 4. airflow connection 확인
+admin 버튼에 hover 시 Connection 이 있는데 그 부분에 추가, 수정을 한다.
+
+구글링을 해본 결과 이 오류는 다양한 이유로 발생하는 것 같은데
+
+다른 사람들은 만나지 않았으면 한다.
 
 orm 은 무엇이고 왜 써야했는가
 - 쉽게 말해, orm 은 파이썬 - SQL 간 통역사 역할을 하고 프로그래밍 언어와 db 간 상호작용을 도와줌.
