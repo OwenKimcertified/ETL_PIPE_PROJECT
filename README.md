@@ -21,6 +21,7 @@ kafka 의 경우 cli 로 로깅 기록을 확인할 수 있지만 다소 번거�
 kafdrop 을 추가해 log centre 처럼 운용하여 GUI 로 쉽게 로그를 확인할 수 있도록 했습니다.
  
 마지막으로 pytest 를 이용하여 안정적인 작업이 가능하도록 했습니다.
+![ETL PIPELINE WITH AI (1)](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/ac13aa54-349b-4bb5-94d3-7a4ca65e2522)
 
 # PPT 
 ![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/bf582e72-ea7e-4885-a045-854426b41d05)
