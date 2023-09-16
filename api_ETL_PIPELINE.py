@@ -35,13 +35,13 @@ atlas_addr = "mongodb+srv://user:password@clustername.secret.mongodb.net/"
 Base = declarative_base()
 
 class userinfo(Base):
-    __tablename__ = 'api_summoner_info'
-    summoner_id = Column(String, primary_key=True)
+    __tablename__ = 'table'
+    summoner_id = Column(String, primary_key = True)
     summoner_name = Column(String)
     QType = Column(String)
 
 # Airflow info
-dag_id = 'etl_datapipeline'
+dag_id = 'etl_pipeline'
 
 # Functions
 def _processing_api(**context):
@@ -99,7 +99,8 @@ def check_cols_vif(**context):
     en_text1 = text1.encode('utf-8')
     text2 = f"{datetime.now().date()} success ETL"
     en_text2 = text2.encode('utf-8')
-    producer = KafkaProducer(bootstrap_servers=brokers)
+   
+    producer = KafkaProducer(bootstrap_servers = brokers)
     producer.send(topicname, en_text1)
     producer.send(topicname, en_text2)
     producer.flush()
