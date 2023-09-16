@@ -10,7 +10,9 @@ Airflow 사용으로 task 를 자동화, 조건에 따른 task 를 결정을 구
 
 본 프로젝트에는 사용하지 않은 수치형 데이터에 활용 가능한 vif 계수 측정,
 
-본 프로젝트에 사용한 data stability 를 측정하는 모듈을 추가하여 분석가의 편의에 신경 썼습니다.
+본 프로젝트에 사용한 data stability 를 측정하는 모듈을 추가하고 
+
+orm 으로 db 에 trasaction 하여  데이터의 ACID 를 지키려 노력했습니다.
 
 Kafka 와 Kafdrop 을 이용하여 로그 처리에 이용했고 
 
