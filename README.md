@@ -29,7 +29,8 @@ kafdrop 을 추가해 log centre 처럼 운용하여 GUI 로 쉽게 로그를 �
 ![슬라이드4](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/f8821a00-2e77-40c8-936e-058ae8c8a7e4)
 ![슬라이드5](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/116d3b76-b510-4a38-ad74-6e1c4addbb0c)
 ![슬라이드6](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/ecf5ee0c-4d24-4f04-92cc-b5f9cf38745c)
-![슬라이드7](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/d550a2fe-c815-4778-b75d-96bc0cb66e72)
+![image](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/3ee58519-e417-4a59-8766-d2c96e67c554)
+
 
 # airflow dags tree
 ![스크린샷 2023-09-16 00-50-09](https://github.com/OwenKimcertified/ETL_PIPE_PROJECT/assets/99598620/ce7a929b-601f-4999-bf48-8dd80bcd5194)
